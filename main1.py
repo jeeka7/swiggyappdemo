@@ -1,6 +1,5 @@
 import streamlit as st
 purchase__quantity = 0
-if purchase__quantity == 0:
 pizza = 500
 def purchase ():
    global pizza
