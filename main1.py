@@ -1,12 +1,11 @@
 import streamlit as st
-
-
-st.write(hello)
-
-
 if purchase__quantity == 0:
-    price = x 
-if st.button()
- def purchase ():
-    purchase__quantity += 1
-    price = x + increase
+    pizza = 500 
+purchase__quantity = 0
+def purchase ():
+   purchase__quantity += 1
+   pizza += 100
+if st.button():
+    purchase()
+ st.write('the price of the pizza is')
+ st.metric('cost of pizza',pizza)
