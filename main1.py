@@ -1,8 +1,7 @@
 import streamlit as st
-purchase__quantity = 0
 if "pizza" not in st.session_state:
   st.session_state.pizza = 0
-if "purchase__quantit" not in st.session_state:
+if "purchase__quantity" not in st.session_state:
     st.session_state.purchase__quantity = 0
 def purchase ():
    global pizza
