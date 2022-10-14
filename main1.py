@@ -7,5 +7,5 @@ def purchase ():
    pizza += 100
 if st.button():
     purchase()
- st.write('the price of the pizza is')
- st.metric('cost of pizza',pizza)
+st.write('the price of the pizza is')
+st.metric('cost of pizza',pizza)
