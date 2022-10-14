@@ -8,5 +8,4 @@ def purchase ():
    pizza += 100
 if st.button("Buy 1 more pizza"):
     purchase()
-st.write('the price of the pizza is')
-st.metric('cost of pizza',pizza)
+st.metric(label='cost of pizza', value=pizza)
